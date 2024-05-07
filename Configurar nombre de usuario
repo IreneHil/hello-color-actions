@@ -1,0 +1,7 @@
+name: Configurar nombre de usuario
+        run: |
+          git config --global user.name "IreneHil"
+
+      - name: Configurar correo electrónico
+        run: |
+          git config --global user.email "aurahil.lor@gmail.com"
